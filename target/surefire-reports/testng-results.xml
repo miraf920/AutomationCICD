@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-07T10:48:21 EDT" name="Suite" finished-at="2025-05-07T10:49:01 EDT" duration-ms="39989">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.logInErrorValidation()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" name="logInErrorValidation" class="CompleteSeleniumFramework.Tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" name="submitOrder" class="CompleteSeleniumFramework.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-05-07T10:48:21 EDT" name="Error Validations Test" finished-at="2025-05-07T10:48:47 EDT" duration-ms="26145">
+      <class name="CompleteSeleniumFramework.Tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" started-at="2025-05-07T10:48:21 EDT" name="launchApplication" finished-at="2025-05-07T10:48:35 EDT" duration-ms="13303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" started-at="2025-05-07T10:48:35 EDT" name="ProductErrorValidation" finished-at="2025-05-07T10:48:39 EDT" duration-ms="4227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" started-at="2025-05-07T10:48:39 EDT" name="tearDown" finished-at="2025-05-07T10:48:39 EDT" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" started-at="2025-05-07T10:48:39 EDT" name="launchApplication" finished-at="2025-05-07T10:48:46 EDT" duration-ms="6378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="logInErrorValidation()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" started-at="2025-05-07T10:48:46 EDT" name="logInErrorValidation" finished-at="2025-05-07T10:48:47 EDT" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CompleteSeleniumFramework.Tests.ErrorValidations@37313c65]" started-at="2025-05-07T10:48:47 EDT" name="tearDown" finished-at="2025-05-07T10:48:47 EDT" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CompleteSeleniumFramework.Tests.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2025-05-07T10:48:21 EDT" name="Submit Order Test" finished-at="2025-05-07T10:49:01 EDT" duration-ms="39989">
+      <class name="CompleteSeleniumFramework.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:22 EDT" name="launchApplication" finished-at="2025-05-07T10:48:34 EDT" duration-ms="12830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:34 EDT" name="submitOrder" data-provider="getData" finished-at="2025-05-07T10:48:41 EDT" duration-ms="6180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Indonesia, password=Qwer123$$, email=Ronald_Joe@hotmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:41 EDT" name="tearDown" finished-at="2025-05-07T10:48:41 EDT" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:41 EDT" name="launchApplication" finished-at="2025-05-07T10:48:48 EDT" duration-ms="7121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:48 EDT" name="submitOrder" data-provider="getData" finished-at="2025-05-07T10:48:53 EDT" duration-ms="5081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Qwer123$$, email=sofhar@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:53 EDT" name="tearDown" finished-at="2025-05-07T10:48:54 EDT" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:48:54 EDT" name="launchApplication" finished-at="2025-05-07T10:49:00 EDT" duration-ms="5967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:49:00 EDT" name="OrderHistoryTest" finished-at="2025-05-07T10:49:01 EDT" depends-on-methods="CompleteSeleniumFramework.Tests.SubmitOrderTest.submitOrder" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CompleteSeleniumFramework.Tests.SubmitOrderTest@71075444]" started-at="2025-05-07T10:49:01 EDT" name="tearDown" finished-at="2025-05-07T10:49:01 EDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CompleteSeleniumFramework.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

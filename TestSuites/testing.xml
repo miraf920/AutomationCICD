@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- If you want to run the tests parallel the you can just give the attribute parrallel ="tests"" in Suits -->
+<!-- If you want to run the methods parallel the you can just give the attribute parrallel ="methods"" in Suits -->
+
+
+
+
+<suite parallel="tests" name="Suite">
+<!-- Thread Count 5 means it will allow 5 methods to run parallel at a time -->
+
+<!--You have to tell your xml file about the listeneers-->
+
+<listeners>
+<listener class-name="CompleteSeleniumFramework.TestComponents.Listeners"/>
+ <listener class-name="CompleteSeleniumFramework.TestComponents.RetryListener"/>
+</listeners>
+
+
+
+<!-- for selective etsting you can use grouping -->
+
+	<test thread-count="5" name="Submit Order Test">
+		<classes>
+			<class name="CompleteSeleniumFramework.Tests.SubmitOrderTest" />
+
+		</classes>
+		
+	</test>
+
+	<!-- Test -->
+	<test thread-count="5" name="Error Validations Test">
+		<classes>
+			<class name="CompleteSeleniumFramework.Tests.ErrorValidations" />
+
+		</classes>
+	</test> <!--
+	Test -->
+
+
+</suite> <!--
+Suite -->
