@@ -14,6 +14,7 @@ import CompleteSeleniumFramework.TestComponents.Retry;
 
 public class ErrorValidations extends BaseTest {
 //retryAnalyzer=Retry.class
+	//new comments added for the cicd automation
 	@Test(groups = {"ErrorHandling"})
 	public void logInErrorValidation() throws IOException, InterruptedException {
 
